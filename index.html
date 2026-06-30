@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sasta Designer Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="header-inner">
+      <div class="logo-area">
+        <img src="logo.jpeg" alt="Sasta Designer Hub Logo" class="logo-img" />
+        <div class="brand-text">
+          <h1>Sasta Designer Hub</h1>
+          <p>FASHION STORE</p>
+        </div>
+      </div>
+
+      <div class="search-wrap">
+        <span class="search-icon">&#128269;</span>
+        <input type="search" id="search-input" placeholder="Search products..." />
+      </div>
+
+      <a href="admin.html" class="admin-btn">
+        &#128737; <span>Admin Panel</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ===== CATEGORY BAR ===== -->
+  <div class="category-bar">
+    <div class="cat-inner">
+      <button class="cat-btn active" data-cat="All">All</button>
+      <button class="cat-btn" data-cat="T-Shirt">T-Shirt</button>
+      <button class="cat-btn" data-cat="Shirt">Shirt</button>
+      <button class="cat-btn" data-cat="Jeans">Jeans</button>
+    </div>
+  </div>
+
+  <!-- ===== PRODUCTS ===== -->
+  <main>
+    <div class="products-grid" id="products-grid">
+      <!-- Products yahan JavaScript se aayenge -->
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; <span id="year"></span> Sasta Designer Hub. All rights reserved.</p>
+    <p class="dev">Developer: <span>Salman Ali</span></p>
+    <a href="admin.html" class="footer-admin">Admin Panel</a>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
