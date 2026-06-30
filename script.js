@@ -3,7 +3,7 @@
 // Format: Country code ke saath, bina + ke
 // Pakistan: 923001234567  |  India: 919876543210
 // =====================================================
-const WHATSAPP_NUMBER = "919876543210";
+const WHATSAPP_NUMBER = "9334937396";
 // =====================================================
 
 const DEFAULT_PRODUCTS = [
